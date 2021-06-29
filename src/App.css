@@ -1,0 +1,327 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navmargin{
+  margin-left: 35%;}
+  /* padding-left:1%; */
+  /* font-family: 'Montserrat', sans-serif;   */
+
+
+.fontfamilycls{
+  padding-left: 30%;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.sizeofheading{
+  padding: 5%;
+}
+
+img, svg{
+  height: 90%;
+  width: 90%;
+}
+
+.txtdeco{
+  text-decoration: none;
+  color: black;
+}
+
+.newtext{
+  background-color: #0d6efd;
+  color: aliceblue;
+  width: 19%;
+  padding: 2%;
+}
+
+.newsCard::after{
+  content: '';
+  width: 6%;
+  height: 9px;
+  background: #1061B0 ;
+  display: block;
+  margin: auto 0;
+}
+.btnmargin{
+  margin-left: 80%;
+  margin-top: 2%;
+}
+.smargin{
+  margin-right: 4%;
+}
+
+.ssmargin{
+  margin-right: 1.5%;
+  margin-bottom: 2%;  
+}
+
+
+.linemargin{
+  margin-right: 1%;
+}
+
+
+.marginn{
+  margin-right: 75%;
+}
+
+.card{
+  width: 85%;
+  height: 98%;
+}
+
+.margiin{
+  margin-top: -20%;
+}
+.bimg {
+  width: 100%;
+}
+
+.tt{
+  margin-left: 2%;
+}
+
+/* ----Product page css start---- */
+.pph{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pnmargin{
+  margin-left: 27%;
+}
+
+.showall{
+  margin-left: 46%;
+}
+
+.pnavbar{
+  margin-left: 28%;
+}
+
+.hrl{
+  color: 'gray';
+  background-Color: 'gray';
+  width: 50%;
+  margin-left: 24%;  
+}
+/* 
+.moreText{
+  display: none;
+}
+
+.text.show-more .moreText{
+  display: inline;
+}  */
+
+/* ----Contact page css start---- */
+.parentbox{
+  background-color: white;
+  
+  box-shadow: 0px 0px 5px 5px rgb(228, 226, 226);
+  margin-left: 30%;
+  border-radius: 4%;
+   
+}
+.childbox{
+  background-color: #1061B0;
+  height: 600px;
+  width: 450px;
+  box-shadow: 0px 0px 5px 5px rgb(228, 226, 226);
+  border-radius: 4%;
+  margin-top: -45%; 
+  margin-left: 15%; 
+
+}
+
+@media (max-width: 768px){
+  .parentbox{
+    display: flex;
+  }
+  .childbox{
+    margin-top: 90%;
+  }
+}
+  
+
+
+.maindiv{
+  margin-bottom: 10%;
+  
+}
+
+.parentbox{
+  background-color: white;
+  height: 800px;
+  width: 800px;
+  box-shadow: 0px 0px 5px 5px rgb(228, 226, 226);
+  margin-left: 30%;
+  border-radius: 4%;
+   
+}
+
+.childbox{
+  background-color: rgb(27, 12, 235);
+  height: 600px;
+  width: 450px;
+  box-shadow: 0px 0px 5px 5px rgb(228, 226, 226);
+  border-radius: 4%;
+  margin-top: -45%; 
+  margin-left: 15%; 
+  color: aliceblue;
+
+}
+
+.rdaiuss{
+  border-radius: 2px 3px 2px 3px;
+  
+  margin-left: 60%;
+}
+
+.radiuse{
+  border-radius: 15px;
+}
+
+.contactbtn{
+  margin-left: 80%;
+}
+
+.shadoww{
+  box-shadow: 0px 0px 5px 5px rgb(228, 226, 226);
+}
+
+.marginparentbox{
+  /* margin-left: 35%;
+  margin-top: 50%; */
+  padding-top: 15%;
+  padding-left: 35%;
+
+}
+
+.inputt{
+  padding: 3%;
+  width: 70%;
+}
+
+.inputt2{
+  padding: 3%;
+  width: 70%;
+  margin-top: 6%;
+}
+
+/* .inputt3{
+  padding: 3%;
+  width: 70%;
+  height: 70%;
+  margin-top: 6%;
+} */
+.textarea{
+  margin-top: 6%;
+  padding: 3%;
+}
+
+.conbtn{
+  margin-left: 41%;
+  width: 30%;
+  font-size: large;
+}
+
+/* button, input, optgroup, select, textarea{
+  margin-left: 40%;
+} */
+
+/* ----About Us page css start---- */
+.bgcolr{
+  background-color: rgb(222, 226, 224);
+}
+.fonts{
+  font-size: 30px;
+}
+
+/* ----Product Details page css start---- */
+.mtop{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.osumry{
+  background-color: rgb(218, 215, 215);
+  border-radius: 10px;
+  padding: 3%;
+}
+.pdbtn{
+  margin-top: 20%;
+  margin-left: 11%;
+  width: 80%;
+}
+.fontsize{
+  font-size: 13px;
+}
+.carsol{
+  /* height: 20%; */
+  text-align: center;
+  
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+}
+.fpad{
+  padding-right: 13%;
+}
+
+.ggg{
+  display:horizental;
+}
+
+
+/* ----Monogram-classic page css start---- */
+.inputnames{
+  font-size: 17px;
+}
+
