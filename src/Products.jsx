@@ -236,8 +236,7 @@ const Products = () => {
     </div>
     
       
-    <div id="menu2" class="tab-pane fade"><br/>
-    
+<div id="menu2" class="tab-pane fade"><br/>
     <div id="Products" className="city ">
 <div className="container-fluid sizeofheading text">
            
@@ -276,9 +275,7 @@ const Products = () => {
            </div>
            </div>
            
-          
-
-         {/*----Row 2 Start----*/}
+           {/*----Row 2 Start----*/}
          <div className="Products">
          {
            show?
