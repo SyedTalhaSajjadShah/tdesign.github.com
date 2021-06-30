@@ -362,8 +362,6 @@ const Products = () => {
            />
            </div>
            </div>
-           
-          
 
          {/*----Row 2 Start----*/}
          <div className="Products">
